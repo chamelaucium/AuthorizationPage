@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Добро пожаловать</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div>
+        <form>
+            <div>
+                <p>АВТОРИЗАЦИЯ</p>
+            </div>
+            <div>
+                <input name="login" type="email" placeholder="Логин" required />
+            </div>
+            <div>
+                <input name="password" type="password" placeholder="Пароль" required minlength="6" maxlength="20" pattern="[A-Za-z0-9]{6,20}" />
+            </div>
+            <div>
+                <button class="btn-login" type="submit">Войти</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
